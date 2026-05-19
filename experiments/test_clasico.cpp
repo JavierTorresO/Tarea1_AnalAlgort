@@ -7,6 +7,8 @@
 
 using namespace std;
 
+//TEST CON MATRICES MUY PEQUEÑAS, SOLO PARA CONFIRMAR FUNCIONALIDADES 
+
 int main() {
 
     // TEST 1: Multiplicación por identidad
