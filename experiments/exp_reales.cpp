@@ -16,6 +16,7 @@
 #include "../include/utils/generadores.h"
 #include "../include/algoritmos/strassen.h"
 #include "../include/algoritmos/clasico.h"
+#include "../include/algoritmos/hibrido.h"
 
 int main(int argc, char *argv[])
 {
@@ -67,6 +68,7 @@ int main(int argc, char *argv[])
 
             //Matrix C = strassenMultiply(A, B); 
             Matrix C = classicMultiply(A, B);
+            //Matrix C = hybridMultiply(A, B, 64); // Umbral n0=64 (64 fue el mejor encontrado en experimentos previos)
             // =========================================================
 
             end_time = std::chrono::high_resolution_clock::now();
