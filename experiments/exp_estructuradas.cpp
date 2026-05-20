@@ -67,8 +67,8 @@ int main(int argc, char *argv[])
             // Comentar algortimo no usado
 
             //Matrix C = strassenMultiply(A, B); 
-            Matrix C = classicMultiply(A, B);
-            //Matrix C = hybridMultiply(A, B, 64); // Umbral n0=64 (64 fue el mejor encontrado en experimentos previos)
+            //Matrix C = classicMultiply(A, B);
+            Matrix C = hybridMultiply(A, B, 64); // Umbral n0=64 (64 fue el mejor encontrado en experimentos previos)
             // =========================================================
 
             end_time = std::chrono::high_resolution_clock::now();
