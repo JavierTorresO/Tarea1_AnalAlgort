@@ -1,7 +1,7 @@
 #ifndef GENERADORES_H
 #define GENERADORES_H
 
-#include "matrix.h"
+#include "utils/matrix.h"
 
 // Matriz con enteros aleatorios
 Matrix randomIntMatrix(

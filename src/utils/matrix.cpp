@@ -1,4 +1,4 @@
-#include "matrix.h"
+#include "utils/matrix.h"
 
 #include <cmath>
 
@@ -129,4 +129,30 @@ Matrix joinMatrices(
     }
 
     return C;
+}
+
+void addSubMatrix(
+    const Matrix& A, int rA, int cA,
+    const Matrix& B, int rB, int cB,
+    Matrix& Result, int rR, int cR, 
+    int size
+) {
+    for (int i = 0; i < size; i++) {
+        for (int j = 0; j < size; j++) {
+            Result[rR + i][cR + j] = A[rA + i][cA + j] + B[rB + i][cB + j];
+        }
+    }
+}
+
+void subSubMatrix(
+    const Matrix& A, int rA, int cA,
+    const Matrix& B, int rB, int cB,
+    Matrix& Result, int rR, int cR, 
+    int size
+) {
+    for (int i = 0; i < size; i++) {
+        for (int j = 0; j < size; j++) {
+            Result[rR + i][cR + j] = A[rA + i][cA + j] - B[rB + i][cB + j];
+        }
+    }
 }

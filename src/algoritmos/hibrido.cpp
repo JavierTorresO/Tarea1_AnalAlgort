@@ -1,8 +1,5 @@
-#include "hibrido.h"
-
-#include "../../utils/matrix.h"
-
-#include "../clasico/clasico.h"
+#include "algoritmos/hibrido.h"
+#include "algoritmos/clasico.h"
 
 
 // Multiplicación híbrida

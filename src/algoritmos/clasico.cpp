@@ -1,4 +1,4 @@
-#include "clasico.h"
+#include "algoritmos/clasico.h"
 
 // Multiplicación clásica de matrices
 Matrix classicMultiply(

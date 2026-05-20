@@ -1,7 +1,7 @@
 #ifndef HIBRIDO_H
 #define HIBRIDO_H
 
-#include "../../utils/matrix.h"
+#include "utils/matrix.h"
 
 // Multiplicación híbrida: Strassen + clásico bajo umbral n0
 Matrix hybridMultiply(

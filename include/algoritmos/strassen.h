@@ -1,7 +1,7 @@
 #ifndef STRASSEN_H
 #define STRASSEN_H
 
-#include "../../utils/matrix.h"
+#include "utils/matrix.h"
 
 // Multiplicación de matrices con Strassen
 Matrix strassenMultiply(

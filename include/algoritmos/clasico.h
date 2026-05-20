@@ -2,7 +2,7 @@
 #ifndef CLASICO_H
 #define CLASICO_H
 
-#include "../../utils/matrix.h"
+#include "utils/matrix.h"
 
 // Multiplicación clásica O(n^3)
 Matrix classicMultiply(

@@ -45,4 +45,18 @@ Matrix joinMatrices(
     const Matrix& C22
 );
 
+void addSubMatrix(
+    const Matrix& A, int rA, int cA,
+    const Matrix& B, int rB, int cB,
+    Matrix& Result, int rR, int cR, 
+    int size
+);
+
+void subSubMatrix(
+    const Matrix& A, int rA, int cA,
+    const Matrix& B, int rB, int cB,
+    Matrix& Result, int rR, int cR, 
+    int size
+);
+
 #endif

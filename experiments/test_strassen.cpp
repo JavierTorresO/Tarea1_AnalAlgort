@@ -1,11 +1,11 @@
 #include <iostream>
 #include <cassert>
+#include <vector>
 
-#include "../utils/matrix.h"
-#include "../utils/generadores.h"
-
-#include "../algoritmos/clasico/clasico.h"
-#include "../algoritmos/strassen/strassen.h"
+#include "utils/matrix.h"
+#include "utils/generadores.h"
+#include "algoritmos/clasico.h"
+#include "algoritmos/strassen.h"
 
 using namespace std;
 
